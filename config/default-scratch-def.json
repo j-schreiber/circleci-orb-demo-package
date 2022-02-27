@@ -1,13 +1,10 @@
 {
-  "orgName": "Lietzau Consulting",
+  "orgName": "JSC - Demo Package",
   "edition": "Enterprise",
   "features": ["StateAndCountryPicklist", "MultiCurrency", "PersonAccounts"],
   "country": "DE",
   "language": "en_US",
   "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    },
     "pathAssistantSettings": {
       "pathAssistantEnabled": true
     },
@@ -16,9 +13,6 @@
     },
     "chatterSettings": {
       "enableChatter": true
-    },
-    "quoteSettings": {
-      "enableQuote": true
     }
   }
 }
