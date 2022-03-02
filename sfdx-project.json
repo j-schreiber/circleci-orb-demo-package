@@ -14,9 +14,9 @@
     }
   ],
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sfdcLoginUrl": "https://curious-impala-bhgtyu-dev-ed.my.salesforce.com",
   "sourceApiVersion": "52.0",
   "packageAliases": {
-    "Orb Developer Demo Package": "0Ho08000000CaRqCAK"
+    "Orb Developer Demo Package": "0Ho7Q000000CaVYSA0"
   }
 }
