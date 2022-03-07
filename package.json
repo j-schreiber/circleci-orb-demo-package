@@ -4,6 +4,7 @@
   "description": "Your package description",
   "main": "index.js",
   "scripts": {
+    "prettier:check:ci": "./node_modules/.bin/prettier --check '**/*'",
     "prettier:format": "./node_modules/.bin/prettier --write '**/*'",
     "prettier:format:apex": "./node_modules/.bin/prettier --write '**/*.{trigger,cls,apex}'",
     "prettier:format:json": "./node_modules/.bin/prettier --write '**/*.{json,yaml,yml}'",
