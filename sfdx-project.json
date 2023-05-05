@@ -17,7 +17,6 @@
   "sfdcLoginUrl": "https://wise-narwhal-asvtzx-dev-ed.trailblaze.my.salesforce.com",
   "sourceApiVersion": "53.0",
   "packageAliases": {
-    "Orb Developer Demo Package": "0Ho09000000CayYCAS",
-    "Orb Developer Demo Package@0.1.1-1": "04t09000000vP7vAAE"
+    "Orb Developer Demo Package": "0Ho09000000CayYCAS"
   }
 }
