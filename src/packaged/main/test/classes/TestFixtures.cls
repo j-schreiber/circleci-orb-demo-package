@@ -158,7 +158,7 @@ public class TestFixtures {
             AccountId = accountId,
             BillingStreet = 'Straße 1',
             BillingPostalCode = '12345',
-            BillingCity = 'Berlin'
+            BillingCity = 'Berlin',
             ShippingStreet = 'Straße 1',
             ShippingPostalCode = '12345',
             ShippingCity = 'Berlin'
