@@ -146,8 +146,7 @@ public class TestFixtures {
             AccountNumber = accountNumber,
             BillingStreet = 'Karlstraße 1',
             BillingPostalCode = '86152',
-            BillingCity = 'Augsburg',
-            BillingCountryCode = 'DE'
+            BillingCity = 'Augsburg'
         );
     }
 
@@ -159,12 +158,10 @@ public class TestFixtures {
             AccountId = accountId,
             BillingStreet = 'Straße 1',
             BillingPostalCode = '12345',
-            BillingCity = 'Berlin',
-            BillingCountryCode = 'DE',
+            BillingCity = 'Berlin'
             ShippingStreet = 'Straße 1',
             ShippingPostalCode = '12345',
-            ShippingCity = 'Berlin',
-            ShippingCountryCode = 'DE'
+            ShippingCity = 'Berlin'
         );
     }
 
