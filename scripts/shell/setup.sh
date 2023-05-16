@@ -20,18 +20,18 @@ echo "mkdir -p force-app"
 mkdir -p force-app
 
 if [ -z "$devhubusername" ]; then
-    echo "sfdx force:org:create -d $duration -f $configFile -a $alias -s"
-    sfdx force:org:create -d $duration -f $configFile -a $alias -s
+    echo "sf org create scratch -y $duration -f $configFile -a $alias -d --json"
+    sf org create scratch -y $duration -f $configFile -a $alias -d --json
 else
-    echo "sfdx force:org:create -v $devhubusername -d $duration -f $configFile -a $alias -s"
-    sfdx force:org:create -v $devhubusername -d $duration -f $configFile -a $alias -s
+    echo "sf org create scratch -v $devhubusername -y $duration -f $configFile -a $alias -d --json"
+    sf org create scratch -v $devhubusername -y $duration -f $configFile -a $alias -d --json
 fi
 
-echo "sfdx force:source:push -u $alias"
-sfdx force:source:push -u $alias
+echo "sf project deploy start -o $alias"
+sf project deploy start -o $alias
 
-echo "sfdx force:data:tree:import -p data/plans/standard-plan.json -u $alias"
-sfdx force:data:tree:import -p data/plans/standard-plan.json -u $alias
+echo "sf data import tree -p data/plans/standard-plan.json -o $alias"
+sf data import tree -p data/plans/standard-plan.json -o $alias
 
-echo "sfdx force:org:open -u $alias"
-sfdx force:org:open -u $alias
+echo "sf org open -o $alias"
+sf org open -o $alias
