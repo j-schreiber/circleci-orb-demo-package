@@ -1,7 +1,7 @@
 {
   "orgName": "JSC - Demo Package",
   "edition": "Enterprise",
-  "features": ["StateAndCountryPicklist", "MultiCurrency", "PersonAccounts"],
+  "features": ["StateAndCountryPicklist", "PersonAccounts"],
   "country": "DE",
   "language": "en_US",
   "settings": {
@@ -13,6 +13,9 @@
     },
     "chatterSettings": {
       "enableChatter": true
+    },
+    "currencySettings": {
+      "enableMultiCurrency": true
     }
   }
 }
