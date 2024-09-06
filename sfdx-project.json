@@ -9,7 +9,7 @@
       "package": "Orb Developer Demo Package",
       "definitionFile": "config/default-scratch-def.json",
       "versionName": "Package Version Name",
-      "versionNumber": "0.1.5.NEXT",
+      "versionNumber": "0.1.6.NEXT",
       "default": false
     }
   ],
